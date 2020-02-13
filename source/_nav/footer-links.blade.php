@@ -8,7 +8,7 @@ $prev = $page->getPreviousPage();
         @if ($prev)
             <span class="font-black text-gray-500 text-sm tracking-wider uppercase pb-1">← Previous Topic</span>
             <h4 class="font-bold underline m-0 text-blue-700">
-                <a href="/{{ $prev['path'] }}">{!! $prev['label'] !!}</a>
+                <a href="{{ $page->baseUrl }}/{{ $prev['path'] }}">{!! $prev['label'] !!}</a>
             </h4>
         @endif
     </div>
@@ -16,7 +16,7 @@ $prev = $page->getPreviousPage();
         @if ($next)
             <span class="font-black text-gray-500 text-sm tracking-wider uppercase pb-1">Next Topic →</span>
             <h4 class="font-bold underline m-0 text-blue-700">
-                <a href="/{{ $next['path'] }}">{!! $next['label'] !!}</a>
+                <a href="{{ $page->baseUrl }}/{{ $next['path'] }}">{!! $next['label'] !!}</a>
             </h4>
         @endif
     </div>

@@ -42,15 +42,15 @@ $page->siteName = 'Livewire Documentation';
                 </a>
 
                 <a style="height: 50px" class="block mb-3 pb-3" href="https://intellow.com/" target="_blank">
-                    <img class="md:ml-auto w-32" src="/assets/img/sponsor_intellow.png" alt="Livewire Sponsor: Intellow">
+                    <img class="md:ml-auto w-32" src="{{ $page->baseUrl }}/assets/img/sponsor_intellow.png" alt="Livewire Sponsor: Intellow">
                 </a>
 
                 <a style="height: 50px" class="block mb-3 pb-3" href="http://jrmerritt.com/" target="_blank">
-                    <img class="md:ml-auto w-32" src="/assets/img/sponsor_jrmerritt.png" alt="Livewire Sponsor: Intellow">
+                    <img class="md:ml-auto w-32" src="{{ $page->baseUrl }}/assets/img/sponsor_jrmerritt.png" alt="Livewire Sponsor: Intellow">
                 </a>
 
                 <a class="block" href="https://trustfactory.bz/" target="_blank">
-                    <img class="md:ml-auto w-32" src="/assets/img/sponsor_trustfactory.png" alt="Livewire Sponsor: Intellow">
+                    <img class="md:ml-auto w-32" src="{{ $page->baseUrl }}/assets/img/sponsor_trustfactory.png" alt="Livewire Sponsor: Intellow">
                 </a>
             </div>
         </div>
